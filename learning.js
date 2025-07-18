@@ -1,12 +1,12 @@
 // =========================================
-// JAVASCRIPT MEGA LEARNING FILE
+// JAVASCRIPT LEARNING FILE
 // Enthält 20 Lernstufen mit über 50 Aufgaben
 // =========================================
 
 // === LERNSTUFE 1: Variablen & Datentypen ===
 console.log("\n=== Lernstufe 1: Variablen & Datentypen ===");
 
-let vorname = "Sou";
+let vorname = "Mein Name";
 let alter = 35;
 let istEntwickler = true;
 let gehalt = null;
@@ -76,12 +76,12 @@ for (let zahl of zahlen) {
 console.log("\n=== Lernstufe 8: Objekte ===");
 
 let user = {
-    name: "Sou",
+    name: "Mein Name",
     beruf: "Entwickler",
     aktiv: true
 };
 console.log(user.name);
-user.email = "sou@example.com";
+user.email = "meineemail@example.com";
 console.log(user);
 
 // === LERNSTUFE 9: Methoden in Objekten ===
@@ -157,7 +157,7 @@ function begruessen(name, callback) {
     console.log("Hallo " + name);
     callback();
 }
-begruessen("Sou", () => console.log("Callback ausgeführt!"));
+begruessen("Mein Name", () => console.log("Callback ausgeführt!"));
 
 // === LERNSTUFE 16: setTimeout & Intervall ===
 console.log("\n=== Lernstufe 16: setTimeout ===");
